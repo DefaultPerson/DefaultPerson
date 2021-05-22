@@ -2,7 +2,7 @@
 #### I am Python lang Web dev
 ![I am GitHub Readme Generator's creator](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
 
-This is my repo
+This is my repo.
 
 Skills: PYTHON / HTML / CSS
 
