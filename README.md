@@ -1,26 +1,16 @@
-### Hi there,
+# Hi there
 
-![I am GitHub Readme Generator's creator]()
-
-This is my repo.
+I am Python lang Web dev
 
 
-## I am Python lang Web dev
+## Languages and Tools:
+
+![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ffffff)![level](https://img.shields.io/badge/-Intermediate-090909?style=for-the-badge&logo=Intermediate&logoColor=ffffff)
+![Django](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=Django&logoColor=ffffff)![level](https://img.shields.io/badge/-Intermediate-090909?style=for-the-badge&logo=Intermediate&logoColor=ffffff)
+![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ffffff)![level](https://img.shields.io/badge/-Elementary-090909?style=for-the-badge&logo=Advanced&logoColor=ffffff)
+![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=ffffff)![level](https://img.shields.io/badge/-Elementary-090909?style=for-the-badge&logo=&logoColor=ffffff)
 
 
-### Languages and Tools:
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DefaultPerson&layout=compact&bg_color=22272E&border_color=22272E&text_color=ffffff&title_color=ffffff)](https://github.com/anuraghazra/github-readme-stats)
 
-![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ffffff)
-![JavaScript](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=Django&logoColor=ffffff)
-![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ffffff)
-
-
-
-
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/DefaultPerson)  
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DefaultPerson)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=DefaultPerson&show_icons=true&count_private=true)  
-
+## My repositories:
