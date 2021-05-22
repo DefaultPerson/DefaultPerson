@@ -1,10 +1,20 @@
-### Hi, my name is Nikaly
-#### I am Python lang Web dev
-![I am GitHub Readme Generator's creator](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
+### Hi there,
+
+![I am GitHub Readme Generator's creator]()
 
 This is my repo.
 
-Skills: PYTHON / HTML / CSS
+
+## I am Python lang Web dev
+
+
+### Languages and Tools:
+
+![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ffffff)
+![JavaScript](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=Django&logoColor=ffffff)
+![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ffffff)
+
+
 
 
 
