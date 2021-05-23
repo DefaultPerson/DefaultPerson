@@ -1,16 +1,34 @@
-# Hi there
 
-I am Python lang Web dev
+**What i know:**
 
+![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ADBAC7)
+![Django](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=Django&logoColor=ADBAC7)
+![Flask](https://img.shields.io/badge/-Flask-090909?style=for-the-badge&logo=Flask&logoColor=ADBAC7)
+![CSS](https://img.shields.io/badge/-CSS-090909?style=for-the-badge&logo=CSS&logoColor=ADBAC7)
+![HTML](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=HTML&logoColor=ADBAC7)
+![Docker](https://img.shields.io/badge/-Docker-090909?style=for-the-badge&logo=Docker&logoColor=ADBAC7)
 
-## Languages and Tools:
+**What I learn:**
 
-![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ffffff)![level](https://img.shields.io/badge/-Intermediate-090909?style=for-the-badge&logo=Intermediate&logoColor=ffffff)
-![Django](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=Django&logoColor=ffffff)![level](https://img.shields.io/badge/-Intermediate-090909?style=for-the-badge&logo=Intermediate&logoColor=ffffff)
-![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ffffff)![level](https://img.shields.io/badge/-Elementary-090909?style=for-the-badge&logo=Advanced&logoColor=ffffff)
-![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=ffffff)![level](https://img.shields.io/badge/-Elementary-090909?style=for-the-badge&logo=&logoColor=ffffff)
+![FastAPI](https://img.shields.io/badge/-FastAPI-090909?style=for-the-badge&logo=FastAPI&logoColor=ADBAC7)
+![aiohttp](https://img.shields.io/badge/-aiohttp-090909?style=for-the-badge&logo=aiohttp&logoColor=ADBAC7)
+![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ADBAC7)
+![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=ADBAC7)
 
+**My repos:**
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DefaultPerson&layout=compact&bg_color=22272E&border_color=22272E&text_color=ffffff&title_color=ffffff)](https://github.com/anuraghazra/github-readme-stats)
-
-## My repositories:
+<!---
+Добавить и закрепить репозитории
+Имя фамилия и фото
+Адрес электронной почты
+Биография
+Ссылка на линкед
+Описание проектов на карточках с эмодзи
+ридми в репозиториях+гифки/видео
+Код через линтер,инструкция
+<div>
+  <a href="https://www.buymeacoffee.com/kevcui" target="_blank"><img src="https://media.giphy.com/media/Vuw9m5wXviFIQ/source.gif" width="280" height="auto" /></a>
+  <a href="https://www.buymeacoffee.com/kevcui" target="_blank"><img src="https://media.giphy.com/media/Vuw9m5wXviFIQ/source.gif" width="280" height="auto" /></a>
+  <a href="https://www.buymeacoffee.com/kevcui" target="_blank"><img src="https://media.giphy.com/media/Vuw9m5wXviFIQ/source.gif" width="280" height="auto" /></a>
+</div>
+-->
