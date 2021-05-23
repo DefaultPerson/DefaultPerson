@@ -1,3 +1,4 @@
+### Languages and instrumets:
 
 **What i know:**
 
@@ -15,7 +16,7 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ADBAC7)
 ![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=ADBAC7)
 
-**My repos:**
+### My repositories:
 
 <!---
 Добавить и закрепить репозитории
