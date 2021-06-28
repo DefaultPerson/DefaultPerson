@@ -1,6 +1,6 @@
 ### Languages and instruments:
 
-#### What i know:
+#### What i worked with:
 
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ADBAC7)
 ![Django](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=Django&logoColor=ADBAC7)
