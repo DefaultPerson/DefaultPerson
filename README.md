@@ -5,14 +5,18 @@
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ADBAC7)
 ![Django](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=Django&logoColor=ADBAC7)
 ![Flask](https://img.shields.io/badge/-Flask-090909?style=for-the-badge&logo=Flask&logoColor=ADBAC7)
+![FastAPI](https://img.shields.io/badge/-FastAPI-090909?style=for-the-badge&logo=FastAPI&logoColor=ADBAC7)
+![aiohttp](https://img.shields.io/badge/-aiohttp-090909?style=for-the-badge&logo=aiohttp&logoColor=ADBAC7)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-090909?style=for-the-badge&logo=RabbitMQ&logoColor=ADBAC7)
+![Selenium](https://img.shields.io/badge/-Selenium-090909?style=for-the-badge&logo=Selenium&logoColor=ADBAC7)
 ![CSS](https://img.shields.io/badge/-CSS-090909?style=for-the-badge&logo=CSS&logoColor=ADBAC7)
 ![HTML](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=HTML&logoColor=ADBAC7)
 ![Docker](https://img.shields.io/badge/-Docker-090909?style=for-the-badge&logo=Docker&logoColor=ADBAC7)
 
+
 #### What I learn:
 
-![FastAPI](https://img.shields.io/badge/-FastAPI-090909?style=for-the-badge&logo=FastAPI&logoColor=ADBAC7)
-![aiohttp](https://img.shields.io/badge/-aiohttp-090909?style=for-the-badge&logo=aiohttp&logoColor=ADBAC7)
+
 ![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ADBAC7)
 ![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=ADBAC7)
 
