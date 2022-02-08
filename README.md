@@ -12,13 +12,11 @@
 ![CSS](https://img.shields.io/badge/-CSS-090909?style=for-the-badge&logo=CSS&logoColor=ADBAC7)
 ![HTML](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=HTML&logoColor=ADBAC7)
 ![Docker](https://img.shields.io/badge/-Docker-090909?style=for-the-badge&logo=Docker&logoColor=ADBAC7)
-
-
-#### What I learn:
-
-
 ![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=ADBAC7)
 ![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=ADBAC7)
+
+
+
 
 
 <!---
