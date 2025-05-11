@@ -32,9 +32,10 @@
 ![Traefik](https://img.shields.io/badge/-Traefik-090909?style=for-the-badge&logo=Traefik&logoColor=ADBAC7)
 ![Grafana](https://img.shields.io/badge/-GrafanaStack-090909?style=for-the-badge&logo=Grafana&logoColor=ADBAC7)
 ![SSO](https://img.shields.io/badge/-SSO-090909?style=for-the-badge&logo=authentik&logoColor=ADBAC7)
-![web3](https://img.shields.io/badge/-web3.py&Blockchain-ADBAC7?style=for-the-badge&logo=Ethereum&logoColor=090909)
+![Ethereum](https://img.shields.io/badge/-Ethereum-ADBAC7?style=for-the-badge&logo=Ethereum&logoColor=090909)
+![Solana](https://img.shields.io/badge/-Solana-ADBAC7?style=for-the-badge&logo=Solana&logoColor=090909)
 
 And much more... 
 
 <hr>
-<p align="center"><samp>My projects : <a href="https://t.me/clear_blog">tg channel<a>    |    Repos : ▼ ▼ ▼ </samp></p>
+<p align="center"><samp>My projects: <a href="https://t.me/clear_blog">links<a>    |    Repos : ▼ ▼ ▼ </samp></p>
