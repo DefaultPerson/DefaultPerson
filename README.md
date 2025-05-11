@@ -38,4 +38,4 @@
 
 
 <hr>
-<p align="center"><samp>My projects : <a href="https://t.me/dead_blog">tg channel<a>    |    Repos : ▼ ▼ ▼ </samp></p>
+<p align="center"><samp>My projects : <a href="https://t.me/clear_blog">tg channel<a>    |    Repos : ▼ ▼ ▼ </samp></p>
