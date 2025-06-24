@@ -38,4 +38,4 @@
 And much more... 
 
 <hr>
-<p align="center"><samp>My projects: <a href="https://t.me/clear_blog/8">links<a>    |    Repos : ▼ ▼ ▼ </samp></p>
+<p align="center"><samp>My projects: <a href="https://t.me/clear_blog/8">links</a>    |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
