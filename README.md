@@ -27,15 +27,15 @@
 ![Linux](https://img.shields.io/badge/-Linux-ADBAC7?style=for-the-badge&logo=Linux&logoColor=090909)
 ![Docker](https://img.shields.io/badge/-Docker-ADBAC7?style=for-the-badge&logo=Docker&logoColor=090909)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-ADBAC7?style=for-the-badge&logo=Kubernetes&logoColor=090909)
-![AWS](https://img.shields.io/badge/-AWS-090909?style=for-the-badge&logo=amazon&logoColor=ADBAC7)
 ![Nginx](https://img.shields.io/badge/-Nginx-090909?style=for-the-badge&logo=Nginx&logoColor=ADBAC7)
 ![Traefik](https://img.shields.io/badge/-Traefik-090909?style=for-the-badge&logo=Traefik&logoColor=ADBAC7)
 ![Grafana](https://img.shields.io/badge/-GrafanaStack-090909?style=for-the-badge&logo=Grafana&logoColor=ADBAC7)
 ![SSO](https://img.shields.io/badge/-SSO-090909?style=for-the-badge&logo=authentik&logoColor=ADBAC7)
 ![Ethereum](https://img.shields.io/badge/-Ethereum-ADBAC7?style=for-the-badge&logo=Ethereum&logoColor=090909)
 ![Solana](https://img.shields.io/badge/-Solana-ADBAC7?style=for-the-badge&logo=Solana&logoColor=090909)
+![Claude_Code](https://img.shields.io/badge/-Claude_Code-090909?style=for-the-badge&logo=Claude&logoColor=ADBAC7)
 
 And much more... 
 
 <hr>
-<p align="center"><samp>My projects: <a href="https://t.me/clear_blog/25">links</a>    |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
+<p align="center"><samp>My projects: <a href="https://t.me/clear_blog/25">links</a>    |  <a href="https://t.me/agentSShit" style="text-decoration:none;">blog</a>  |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
