@@ -35,7 +35,7 @@
 ![Solana](https://img.shields.io/badge/-Solana-ADBAC7?style=for-the-badge&logo=Solana&logoColor=090909)
 ![Claude_Code](https://img.shields.io/badge/-Claude_Code-090909?style=for-the-badge&logo=Claude&logoColor=ADBAC7)
 
-And much more... 
+<samp>And much more... </samp>
 
 <hr>
 <p align="center"><samp>My projects: <a href="https://t.me/clear_blog/25">links</a>    |  <a href="https://t.me/agentSShit" style="text-decoration:none;">blog</a>  |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
