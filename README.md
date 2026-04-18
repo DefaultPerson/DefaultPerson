@@ -1,41 +1,9 @@
+I build crypto and AI infrastructure. Sometimes it ships.
 
-## INFO 
-![banner](banner.jpg)
+## Projects
 
-👋Greetings, I am a web developer and crypto-enthusiast.
-
-<hr>
-
-### What I worked with:
-
-![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ADBAC7)
-![Golang](https://img.shields.io/badge/-Golang-090909?style=for-the-badge&logo=Go&logoColor=ADBAC7)
-![Rust](https://img.shields.io/badge/-Rust-090909?style=for-the-badge&logo=Rust&logoColor=ADBAC7)
-![FastAPI](https://img.shields.io/badge/-FastAPI-ADBAC7?style=for-the-badge&logo=FastAPI&logoColor=090909)
-![aiohttp](https://img.shields.io/badge/-aiohttp-ADBAC7?style=for-the-badge&logo=aiohttp&logoColor=090909)
-![Pytest](https://img.shields.io/badge/-Pytest-ADBAC7?style=for-the-badge&logo=Pytest&logoColor=090909)
-![Celery](https://img.shields.io/badge/-Celery-ADBAC7?style=for-the-badge&logo=Celery&logoColor=090909)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-090909?style=for-the-badge&logo=PostgreSQL&logoColor=c9c9c9)
-![MongoDB](https://img.shields.io/badge/-MongoDB-090909?style=for-the-badge&logo=MongoDB&logoColor=ADBAC7)
-![Redis](https://img.shields.io/badge/-Redis-090909?style=for-the-badge&logo=Redis&logoColor=ADBAC7)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-090909?style=for-the-badge&logo=Elasticsearch&logoColor=c9c9c9)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-ADBAC7?style=for-the-badge&logo=RabbitMQ&logoColor=090909)
-![Kafka](https://img.shields.io/badge/-Kafka-ADBAC7?style=for-the-badge&logo=ApacheKafka&logoColor=090909)
-![NATS](https://img.shields.io/badge/-NATS-ADBAC7?style=for-the-badge&logo=NATS&logoColor=090909)
-![Git](https://img.shields.io/badge/-Git-090909?style=for-the-badge&logo=Git&logoColor=ADBAC7)
-![Gitlab](https://img.shields.io/badge/-Gitlab-090909?style=for-the-badge&logo=Gitlab&logoColor=ADBAC7)
-![Linux](https://img.shields.io/badge/-Linux-ADBAC7?style=for-the-badge&logo=Linux&logoColor=090909)
-![Docker](https://img.shields.io/badge/-Docker-ADBAC7?style=for-the-badge&logo=Docker&logoColor=090909)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-ADBAC7?style=for-the-badge&logo=Kubernetes&logoColor=090909)
-![Nginx](https://img.shields.io/badge/-Nginx-090909?style=for-the-badge&logo=Nginx&logoColor=ADBAC7)
-![Traefik](https://img.shields.io/badge/-Traefik-090909?style=for-the-badge&logo=Traefik&logoColor=ADBAC7)
-![Grafana](https://img.shields.io/badge/-GrafanaStack-090909?style=for-the-badge&logo=Grafana&logoColor=ADBAC7)
-![SSO](https://img.shields.io/badge/-SSO-090909?style=for-the-badge&logo=authentik&logoColor=ADBAC7)
-![Ethereum](https://img.shields.io/badge/-Ethereum-ADBAC7?style=for-the-badge&logo=Ethereum&logoColor=090909)
-![Solana](https://img.shields.io/badge/-Solana-ADBAC7?style=for-the-badge&logo=Solana&logoColor=090909)
-![Claude_Code](https://img.shields.io/badge/-Claude_Code-090909?style=for-the-badge&logo=Claude&logoColor=ADBAC7)
-
-<samp>And much more... </samp>
+- **[Hydra Monitors](https://t.me/HydraMonitors)** — DeFi monitoring platform.
+- **[Web3 Aggregator](https://t.me/WEB3_AGGREGATOR)** — Cross-channel Telegram aggregator across crypto sources.
 
 <hr>
 <p align="center"><samp>My projects: <a href="https://t.me/clear_blog/25">links</a>    |  <a href="https://t.me/agentSShit" style="text-decoration:none;">blog</a>  |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
