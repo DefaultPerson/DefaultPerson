@@ -1,6 +1,6 @@
 
 ## INFO 
-![image](https://github.com/DefaultPerson/DefaultPerson/assets/128322405/6e7455db-38d2-40da-a047-1140b2219e2d)
+![banner](banner.jpg)
 
 👋Greetings, I am a web developer and crypto-enthusiast.
 
