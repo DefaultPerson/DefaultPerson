@@ -7,7 +7,7 @@
 - <samp> **[Hydra Monitors](https://hydramonitors.com/)** - Aggregation and analysis of on-chain and off-chain data.</samp>
 - <samp>**[Web3 Aggregator](https://t.me/WEB3_AGGREGATOR)** - Telegram aggregator for crypto channels.</samp>
 
-## <samp>Actual</samp>
+## <samp>OSS</samp>
 
 - <samp>**[agent-setup](https://github.com/DefaultPerson/agent-setup)** - Universal minimalistic setup for Claude Code & Codex CLI.</samp>
 - <samp>**[solana-dex-parser-go](https://github.com/DefaultPerson/solana-dex-parser-go)** - Go library for parsing Solana DEX swap transactions.</samp>
