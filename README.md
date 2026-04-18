@@ -1,14 +1,13 @@
-## INFO 
 ![banner](banner.jpg)
 
 👋 Greetings, I build crypto and AI infrastructure. Sometimes it ships.
 
-### Projects
+## Projects
 
 - **[Hydra Monitors](https://hydramonitors.com/)** — Aggregation and analysis of on-chain and off-chain data.
 - **[Web3 Aggregator](https://t.me/WEB3_AGGREGATOR)** — Telegram aggregator for crypto-themed channels.
 
-### What I worked with:
+## What I worked with
 
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ADBAC7)
 ![Golang](https://img.shields.io/badge/-Golang-090909?style=for-the-badge&logo=Go&logoColor=ADBAC7)
