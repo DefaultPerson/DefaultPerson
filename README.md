@@ -15,4 +15,4 @@
 - **[aiogram-broadcast](https://github.com/DefaultPerson/aiogram-broadcast)** — Broadcast/newsletter library for aiogram 3.x.
 
 <hr>
-<p align="center"><samp>My projects: <a href="https://t.me/dead_blog">main</a>    |  <a href="https://t.me/dead_blog" style="text-decoration:none;">shitposts</a>  |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
+<p align="center"><samp>My projects: <a href="https://t.me/dead_blog">main</a>    |  <a href="https://t.me/dead_blog" style="text-decoration:none;">shitpost</a>  |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
