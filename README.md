@@ -1,9 +1,12 @@
 ## INFO 
 ![banner](banner.jpg)
 
-👋 Greetings, I am a web developer and crypto-enthusiast.
+👋 Greetings, I build crypto and AI infrastructure. Sometimes it ships.
 
-<hr>
+### Projects
+
+- **[Hydra Monitors](https://hydramonitors.com/)** — Aggregation and analysis of on-chain and off-chain data.
+- **[Web3 Aggregator](https://t.me/WEB3_AGGREGATOR)** — Telegram aggregator for crypto-themed channels.
 
 ### What I worked with:
 
@@ -35,13 +38,6 @@
 ![Claude_Code](https://img.shields.io/badge/-Claude_Code-090909?style=for-the-badge&logo=Claude&logoColor=ADBAC7)
 
 <samp>And much more... </samp>
-
-<hr>
-
-### Projects
-
-- **[Hydra Monitors](https://t.me/HydraMonitors)** — DeFi monitoring platform.
-- **[Web3 Aggregator](https://t.me/WEB3_AGGREGATOR)** — Cross-channel Telegram aggregator across crypto sources.
 
 <hr>
 <p align="center"><samp>My projects: <a href="https://t.me/clear_blog/25">links</a>    |  <a href="https://t.me/agentSShit" style="text-decoration:none;">blog</a>  |    Repos : <a href="https://github.com/DefaultPerson?tab=repositories" style="text-decoration:none;">▼ ▼ ▼</a> </samp></p>
