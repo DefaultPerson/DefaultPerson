@@ -10,7 +10,7 @@
 ## <samp>OSS</samp>
 
 - <samp>**[agent-setup](https://github.com/DefaultPerson/agent-setup)** - Universal minimalistic setup for Claude Code & Codex CLI.</samp>
-- <samp>**[cc-goal-stack](https://github.com/DefaultPerson/cc-goal-stack)** - skills for long-running tasks in claude code.</samp>
+- <samp>**[agent-goal-stack](https://github.com/DefaultPerson/agent-goal-stack)** - skills for long-running tasks in claude code.</samp>
 - <samp>**[agent-skills](https://github.com/DefaultPerson/agent-skills)** - My skills stack for AI coding agents.</samp>
 - <samp>**[solana-dex-parser-go](https://github.com/DefaultPerson/solana-dex-parser-go)** - Go library for parsing Solana DEX swap transactions.</samp>
 - <samp>**[cc-live-cheatsheet](https://github.com/DefaultPerson/cc-live-cheatsheet)** - Self-updating visual cheatsheet for Claude Code.</samp>
