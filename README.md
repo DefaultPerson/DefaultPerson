@@ -4,8 +4,8 @@
 
 ## <samp>Products</samp>
 
-- <samp> **[Hydra Monitors](https://hydramonitors.com/)** - Aggregation and analysis of on-chain and off-chain data.</samp>
-- <samp>**[Web3 Aggregator](https://t.me/WEB3_AGGREGATOR)** - Telegram aggregator for crypto channels.</samp>
+- <samp> **[Hydra Monitors](https://github.com/hydra-monitors)** - Aggregation and analysis of on-chain and off-chain data.</samp>
+- <samp>**[Web3 Aggregator](https://github.com/web3aggregator)** - Telegram aggregator for crypto channels.</samp>
 
 ## <samp>OSS</samp>
 
