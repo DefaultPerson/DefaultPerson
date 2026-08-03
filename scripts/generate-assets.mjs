@@ -10,13 +10,12 @@ const inlineDir = join(projectRoot, 'assets', 'inline')
 // needs only one variant instead of a <picture> pair.
 const INLINE_COLOR = '#7d8590'
 
-// `scale` is optical correction, not sizing: the round marks fill their box
-// edge to edge while the X wordmark leaves the corners empty, so at equal box
-// size the circles read as heavier. Shrinking them evens out the row.
+// Every icon fills the same box. An earlier optical correction shrank the
+// round marks, but the resulting size difference was visible next to the X
+// wordmark, so matching boxes win over optical balance here.
 const inlineIcons = [
-  { output: 'telegram', label: 'Telegram', file: 'simple-telegram.svg', scale: 0.9 },
-  { output: 'x', label: 'X', file: 'simple-x.svg', scale: 1 },
-  { output: 'github', label: 'GitHub', file: 'simple-github.svg', scale: 0.9 },
+  { output: 'telegram', label: 'Telegram', file: 'simple-telegram.svg' },
+  { output: 'x', label: 'X', file: 'simple-x.svg' },
 ]
 
 const INLINE_BOX = 16
