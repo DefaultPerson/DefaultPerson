@@ -1,7 +1,6 @@
 ![banner](assets/banner.jpg)
 
-<samp>👋 Hi, I'm a software engineer and content creator.
-I build crypto and AI infrastructure. Sometimes it ships.</samp>
+<samp>👋 Hi, I build crypto and AI infrastructure and make content about it. Sometimes it ships.</samp>
 
 ## <samp>Products</samp>
 
@@ -29,4 +28,4 @@ I build crypto and AI infrastructure. Sometimes it ships.</samp>
 
 <samp>And much more...</samp>
 <hr>
-<h4 align="center"><samp>My projects: <a href="https://t.me/dead_blog"><img src="assets/inline/telegram.svg" height="12" align="absmiddle" alt="">&nbsp;main</a>  |  <a href="https://t.me/agentSShit"><img src="assets/inline/telegram.svg" height="12" align="absmiddle" alt="">&nbsp;shitpost</a>  |  <a href="https://x.com/clear_accountx"><img src="assets/inline/x.svg" height="12" align="absmiddle" alt="">&nbsp;twitter</a>  |  Repos : <a href="https://github.com/DefaultPerson?tab=repositories">▼ ▼ ▼</a></samp></h4>
+<h4 align="center"><samp>My projects: <a href="https://t.me/dead_blog"><img src="assets/inline/telegram.svg" height="12" align="absmiddle" alt="">&nbsp;main</a>  |  <a href="https://t.me/agentSShit"><img src="assets/inline/telegram.svg" height="12" align="absmiddle" alt="">&nbsp;shitpost</a>  |  <a href="https://x.com/clear_accountx"><img src="assets/inline/x.svg" height="12" align="absmiddle" alt="">&nbsp;twitter</a>  |  Repos <a href="https://github.com/DefaultPerson?tab=repositories">▼ ▼ ▼</a></samp></h4>
