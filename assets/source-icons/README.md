@@ -1,21 +1,20 @@
 # Source icons
 
-Upstream icon sources baked into `assets/buttons/` and `assets/projects/` by
+Upstream icon sources baked into `assets/stack/` and `assets/inline/` by
 `scripts/generate-assets.mjs`. Nothing here is referenced by the README directly.
 
-| File | Upstream | License |
-| --- | --- | --- |
-| `simple-telegram.svg`, `simple-github.svg`, `simple-x.svg` | [Simple Icons](https://github.com/simple-icons/simple-icons) | CC0 1.0 |
-| `lucide-radar.svg`, `lucide-rss.svg` | [Lucide](https://github.com/lucide-icons/lucide) | ISC |
+All files come from [Simple Icons](https://github.com/simple-icons/simple-icons)
+and are distributed under CC0 1.0. The depicted brand logos remain trademarks of
+their respective owners and are used here only to label a stack or link to a
+service.
 
-Simple Icons ships the icon files under CC0, but the depicted brand logos remain
-trademarks of their respective owners and are used here only to link to those
-services.
+Accent colors in the generator are the official Simple Icons brand hex, except
+for Rust and Ethereum: their brand values (`#000000` and `#3C3C3D`) disappear
+against the dark plate, so those two carry a lightened dark-theme variant.
 
-To refresh a source icon:
+To add or refresh an icon:
 
 ```sh
-curl -sfL https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg -o simple-telegram.svg
-curl -sfL https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/radar.svg -o lucide-radar.svg
+curl -sfL https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/<name>.svg -o simple-<name>.svg
 node ../../scripts/generate-assets.mjs
 ```

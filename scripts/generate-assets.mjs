@@ -4,49 +4,47 @@ import { fileURLToPath } from 'node:url'
 
 const projectRoot = dirname(dirname(fileURLToPath(import.meta.url)))
 const sourceDir = join(projectRoot, 'assets', 'source-icons')
-const buttonsDir = join(projectRoot, 'assets', 'buttons')
-const projectsDir = join(projectRoot, 'assets', 'projects')
+const stackDir = join(projectRoot, 'assets', 'stack')
+const inlineDir = join(projectRoot, 'assets', 'inline')
 
 const FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"
 
-// Plate colors per GitHub theme. Project cards ship in both variants and are
-// selected in the README through <picture> + prefers-color-scheme.
+// Plate colors per GitHub theme. Stack cards ship in both variants and are
+// picked in the README through <picture> + prefers-color-scheme.
 const THEMES = {
   dark: { plate: '#161b22', border: '#30363d', text: '#e6edf3' },
   light: { plate: '#f6f8fa', border: '#d0d7de', text: '#1f2328' },
 }
 
-// Social buttons keep their brand color, which reads on either theme, so they
-// are generated once.
-const buttons = [
-  { output: 'telegram-main', label: 'Telegram', file: 'simple-telegram.svg', background: '#26a5e4' },
-  { output: 'telegram-shitpost', label: 'Shitpost', file: 'simple-telegram.svg', background: '#7c3aed' },
-  // The X wordmark is the logo, so a text label next to it would just repeat
-  // itself; this one renders as a centered icon instead.
-  { output: 'x', file: 'simple-x.svg', background: '#111111', border: '#30363d', iconOnly: true },
-  { output: 'github-repos', label: 'Repos', file: 'simple-github.svg', background: '#24292f', border: '#30363d' },
+// Muted gray that stays legible on both themes, so the small footer icons
+// need only one variant instead of a <picture> each.
+const INLINE_COLOR = '#7d8590'
+
+// Accents are the official Simple Icons brand hex, except where the brand
+// color is black or near-black and would vanish on the dark plate.
+const stack = [
+  { output: 'python', label: 'Python', file: 'simple-python.svg', accent: { light: '#3776ab', dark: '#4b8bbe' } },
+  { output: 'go', label: 'Go', file: 'simple-go.svg', accent: { light: '#00add8', dark: '#00add8' } },
+  { output: 'rust', label: 'Rust', file: 'simple-rust.svg', accent: { light: '#ce422b', dark: '#f74c00' } },
+  { output: 'solana', label: 'Solana', file: 'simple-solana.svg', accent: { light: '#9945ff', dark: '#9945ff' } },
+  { output: 'ethereum', label: 'Ethereum', file: 'simple-ethereum.svg', accent: { light: '#3c3c3d', dark: '#8a92b2' } },
+  { output: 'postgresql', label: 'PostgreSQL', file: 'simple-postgresql.svg', accent: { light: '#4169e1', dark: '#6f8ff5' } },
+  { output: 'redis', label: 'Redis', file: 'simple-redis.svg', accent: { light: '#ff4438', dark: '#ff4438' } },
+  { output: 'docker', label: 'Docker', file: 'simple-docker.svg', accent: { light: '#2496ed', dark: '#2496ed' } },
+  { output: 'claude-code', label: 'Claude Code', file: 'simple-claude.svg', accent: { light: '#d97757', dark: '#d97757' } },
 ]
 
-const projects = [
-  {
-    output: 'hydra-monitors',
-    label: 'Hydra Monitors',
-    file: 'lucide-radar.svg',
-    accent: { dark: '#2dd4bf', light: '#0d9488' },
-  },
-  {
-    output: 'web3-aggregator',
-    label: 'Web3 Aggregator',
-    file: 'lucide-rss.svg',
-    accent: { dark: '#f59e0b', light: '#b45309' },
-  },
+const inlineIcons = [
+  { output: 'telegram', label: 'Telegram', file: 'simple-telegram.svg' },
+  { output: 'x', label: 'X', file: 'simple-x.svg' },
+  { output: 'github', label: 'GitHub', file: 'simple-github.svg' },
 ]
 
 const escapeXml = (value) =>
   value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
 
-// Character width is per-metric rather than hardcoded: the label font differs
-// between buttons and project cards, and a shared constant misfits both.
+// Character width is a per-metric constant: a single shared value misfits
+// labels rendered at different font sizes and weights.
 const measure = (label, { charWidth, padding, minWidth }) =>
   Math.max(minWidth, Math.ceil(label.length * charWidth + padding))
 
@@ -66,8 +64,8 @@ async function svgIcon(file, color, { x: iconX, y: iconY, size }) {
     .replace(/<title>[\s\S]*?<\/title>/g, '')
     .replaceAll('currentColor', color)
 
-  // Lucide carries stroke-width/linecap/linejoin on the root <svg>; dropping
-  // them renders every outline icon at the default 1px and visibly too thin.
+  // Outline sets (Lucide and friends) carry stroke-width/linecap/linejoin on
+  // the root <svg>; dropping them renders every icon at the default 1px.
   const carried = ['stroke-width', 'stroke-linecap', 'stroke-linejoin']
     .map((name) => {
       const match = rootAttrs.match(new RegExp(`${name}="([^"]+)"`))
@@ -87,56 +85,43 @@ async function svgIcon(file, color, { x: iconX, y: iconY, size }) {
   return `<g transform="translate(${x} ${y}) scale(${scale}) translate(${-minX} ${-minY})" ${paint}>${body}</g>`
 }
 
-async function renderButton(button) {
-  const iconOnly = button.iconOnly === true
-  const width = iconOnly
-    ? 34
-    : measure(button.label, { charWidth: 6.4, padding: 40, minWidth: 48 })
-  const iconX = iconOnly ? (width - 16) / 2 : 7
-  const icon = await svgIcon(button.file, '#ffffff', { x: iconX, y: 6, size: 16 })
-  const ariaLabel = escapeXml(button.label ?? button.output)
-
-  return [
-    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="28" viewBox="0 0 ${width} 28" role="img" aria-label="${ariaLabel}">`,
-    `<rect x=".5" y=".5" width="${width - 1}" height="27" rx="7" fill="${button.background}" stroke="${button.border ?? button.background}"/>`,
-    icon,
-    iconOnly
-      ? ''
-      : `<text x="29" y="18.2" fill="#ffffff" font-family="${FONT}" font-size="11" font-weight="700">${escapeXml(button.label)}</text>`,
-    '</svg>',
-  ].join('')
-}
-
-async function renderProject(project, themeName) {
+async function renderStack(item, themeName) {
   const theme = THEMES[themeName]
-  const width = measure(project.label, { charWidth: 6.8, padding: 43, minWidth: 82 })
-  const icon = await svgIcon(project.file, project.accent[themeName], { x: 7, y: 6, size: 17 })
+  const width = measure(item.label, { charWidth: 6.8, padding: 43, minWidth: 66 })
+  const icon = await svgIcon(item.file, item.accent[themeName], { x: 7, y: 6, size: 17 })
 
   return [
-    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="30" viewBox="0 0 ${width} 30" role="img" aria-label="${escapeXml(project.label)}">`,
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="30" viewBox="0 0 ${width} 30" role="img" aria-label="${escapeXml(item.label)}">`,
     `<rect x=".5" y=".5" width="${width - 1}" height="29" rx="7.5" fill="${theme.plate}" stroke="${theme.border}"/>`,
     icon,
-    `<text x="31" y="19.2" fill="${theme.text}" font-family="${FONT}" font-size="12" font-weight="650">${escapeXml(project.label)}</text>`,
+    `<text x="31" y="19.2" fill="${theme.text}" font-family="${FONT}" font-size="12" font-weight="650">${escapeXml(item.label)}</text>`,
     '</svg>',
   ].join('')
 }
 
-await mkdir(buttonsDir, { recursive: true })
-await mkdir(projectsDir, { recursive: true })
+async function renderInline(item) {
+  const icon = await svgIcon(item.file, INLINE_COLOR, { x: 0, y: 0, size: 16 })
 
-for (const button of buttons) {
-  await writeFile(join(buttonsDir, `${button.output}.svg`), await renderButton(button))
+  return [
+    `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" role="img" aria-label="${escapeXml(item.label)}">`,
+    icon,
+    '</svg>',
+  ].join('')
 }
 
-let projectFiles = 0
-for (const project of projects) {
+await mkdir(stackDir, { recursive: true })
+await mkdir(inlineDir, { recursive: true })
+
+let stackFiles = 0
+for (const item of stack) {
   for (const themeName of Object.keys(THEMES)) {
-    await writeFile(
-      join(projectsDir, `${project.output}-${themeName}.svg`),
-      await renderProject(project, themeName),
-    )
-    projectFiles += 1
+    await writeFile(join(stackDir, `${item.output}-${themeName}.svg`), await renderStack(item, themeName))
+    stackFiles += 1
   }
 }
 
-console.log(`Generated ${buttons.length} buttons and ${projectFiles} project cards.`)
+for (const item of inlineIcons) {
+  await writeFile(join(inlineDir, `${item.output}.svg`), await renderInline(item))
+}
+
+console.log(`Generated ${stackFiles} stack cards and ${inlineIcons.length} inline icons.`)
