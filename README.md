@@ -1,6 +1,6 @@
 ![banner](assets/banner.jpg)
 
-<samp>👋 Hi, I'm a software engineer and content creator.
+<samp>👋 Hi, I'm a software engineer and content creator.<br>
 I build crypto and AI infrastructure. Sometimes it ships.</samp>
 
 ## <samp>Products</samp>
@@ -10,18 +10,33 @@ I build crypto and AI infrastructure. Sometimes it ships.</samp>
 
 ## <samp>What I worked with</samp>
 
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/python-dark.svg"><img src="assets/stack/python-light.svg" height="30" alt="Python"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/go-dark.svg"><img src="assets/stack/go-light.svg" height="30" alt="Go"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/rust-dark.svg"><img src="assets/stack/rust-light.svg" height="30" alt="Rust"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/solana-dark.svg"><img src="assets/stack/solana-light.svg" height="30" alt="Solana"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/ethereum-dark.svg"><img src="assets/stack/ethereum-light.svg" height="30" alt="Ethereum"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/postgresql-dark.svg"><img src="assets/stack/postgresql-light.svg" height="30" alt="PostgreSQL"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/redis-dark.svg"><img src="assets/stack/redis-light.svg" height="30" alt="Redis"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/docker-dark.svg"><img src="assets/stack/docker-light.svg" height="30" alt="Docker"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/claude-code-dark.svg"><img src="assets/stack/claude-code-light.svg" height="30" alt="Claude Code"></picture>
-</p>
+![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ADBAC7)
+![Golang](https://img.shields.io/badge/-Golang-090909?style=for-the-badge&logo=Go&logoColor=ADBAC7)
+![Rust](https://img.shields.io/badge/-Rust-090909?style=for-the-badge&logo=Rust&logoColor=ADBAC7)
+![FastAPI](https://img.shields.io/badge/-FastAPI-ADBAC7?style=for-the-badge&logo=FastAPI&logoColor=090909)
+![aiohttp](https://img.shields.io/badge/-aiohttp-ADBAC7?style=for-the-badge&logo=aiohttp&logoColor=090909)
+![Pytest](https://img.shields.io/badge/-Pytest-ADBAC7?style=for-the-badge&logo=Pytest&logoColor=090909)
+![Celery](https://img.shields.io/badge/-Celery-ADBAC7?style=for-the-badge&logo=Celery&logoColor=090909)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-090909?style=for-the-badge&logo=PostgreSQL&logoColor=c9c9c9)
+![MongoDB](https://img.shields.io/badge/-MongoDB-090909?style=for-the-badge&logo=MongoDB&logoColor=ADBAC7)
+![Redis](https://img.shields.io/badge/-Redis-090909?style=for-the-badge&logo=Redis&logoColor=ADBAC7)
+![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-090909?style=for-the-badge&logo=Elasticsearch&logoColor=c9c9c9)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-ADBAC7?style=for-the-badge&logo=RabbitMQ&logoColor=090909)
+![Kafka](https://img.shields.io/badge/-Kafka-ADBAC7?style=for-the-badge&logo=ApacheKafka&logoColor=090909)
+![NATS](https://img.shields.io/badge/-NATS-ADBAC7?style=for-the-badge&logo=NATS&logoColor=090909)
+![Git](https://img.shields.io/badge/-Git-090909?style=for-the-badge&logo=Git&logoColor=ADBAC7)
+![Gitlab](https://img.shields.io/badge/-Gitlab-090909?style=for-the-badge&logo=Gitlab&logoColor=ADBAC7)
+![Linux](https://img.shields.io/badge/-Linux-ADBAC7?style=for-the-badge&logo=Linux&logoColor=090909)
+![Docker](https://img.shields.io/badge/-Docker-ADBAC7?style=for-the-badge&logo=Docker&logoColor=090909)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-ADBAC7?style=for-the-badge&logo=Kubernetes&logoColor=090909)
+![Nginx](https://img.shields.io/badge/-Nginx-090909?style=for-the-badge&logo=Nginx&logoColor=ADBAC7)
+![Traefik](https://img.shields.io/badge/-Traefik-090909?style=for-the-badge&logo=Traefik&logoColor=ADBAC7)
+![Grafana](https://img.shields.io/badge/-GrafanaStack-090909?style=for-the-badge&logo=Grafana&logoColor=ADBAC7)
+![SSO](https://img.shields.io/badge/-SSO-090909?style=for-the-badge&logo=authentik&logoColor=ADBAC7)
+![Ethereum](https://img.shields.io/badge/-Ethereum-ADBAC7?style=for-the-badge&logo=Ethereum&logoColor=090909)
+![Solana](https://img.shields.io/badge/-Solana-ADBAC7?style=for-the-badge&logo=Solana&logoColor=090909)
+![Claude_Code](https://img.shields.io/badge/-Claude_Code-090909?style=for-the-badge&logo=Claude&logoColor=ADBAC7)
 
 <samp>And much more...</samp>
 <hr>
-<p align="center"><samp>My projects: <a href="https://t.me/dead_blog"><img src="assets/inline/telegram.svg" height="12" alt=""> main</a>  |  <a href="https://t.me/agentSShit"><img src="assets/inline/telegram.svg" height="12" alt=""> shitpost</a>  |  <a href="https://x.com/clear_accountx"><img src="assets/inline/x.svg" height="12" alt=""> twitter</a>  |  Repos : <a href="https://github.com/DefaultPerson?tab=repositories"><img src="assets/inline/github.svg" height="12" alt=""> ▼ ▼ ▼</a></samp></p>
+<h6 align="center"><samp>My projects: <a href="https://t.me/dead_blog"><img src="assets/inline/telegram.svg" height="10" align="middle" alt="">&thinsp;main</a> &nbsp;|&nbsp; <a href="https://t.me/agentSShit"><img src="assets/inline/telegram.svg" height="10" align="middle" alt="">&thinsp;shitpost</a> &nbsp;|&nbsp; <a href="https://x.com/clear_accountx"><img src="assets/inline/x.svg" height="10" align="middle" alt="">&thinsp;twitter</a> &nbsp;|&nbsp; Repos : <a href="https://github.com/DefaultPerson?tab=repositories"><img src="assets/inline/github.svg" height="10" align="middle" alt="">&thinsp;▼ ▼ ▼</a></samp></h6>

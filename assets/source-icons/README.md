@@ -1,16 +1,17 @@
 # Source icons
 
-Upstream icon sources baked into `assets/stack/` and `assets/inline/` by
+Upstream sources for the small footer icons in `assets/inline/`, baked by
 `scripts/generate-assets.mjs`. Nothing here is referenced by the README directly.
 
 All files come from [Simple Icons](https://github.com/simple-icons/simple-icons)
 and are distributed under CC0 1.0. The depicted brand logos remain trademarks of
-their respective owners and are used here only to label a stack or link to a
-service.
+their respective owners and are used here only to link to those services.
 
-Accent colors in the generator are the official Simple Icons brand hex, except
-for Rust and Ethereum: their brand values (`#000000` and `#3C3C3D`) disappear
-against the dark plate, so those two carry a lightened dark-theme variant.
+The generator paints every icon the same muted gray (`#7d8590`), which stays
+legible on both GitHub themes, so no light/dark pair is needed. The per-icon
+`scale` is optical correction: the round Telegram and GitHub marks fill their
+box edge to edge, while the X wordmark leaves its corners empty, so at equal
+box size the circles would read as heavier.
 
 To add or refresh an icon:
 
