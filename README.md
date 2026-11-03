@@ -1,6 +1,6 @@
 ![banner](assets/banner.jpg)
 
-<samp>👋 Hi, I build crypto and AI infrastructure and make content about it. Sometimes it ships.</samp>
+<samp>👋 Hi, I build crypto, AI infrastructure and make content about it.</samp>
 
 ## <samp>Products</samp>
 
